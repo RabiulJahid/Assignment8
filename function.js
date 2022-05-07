@@ -79,8 +79,8 @@ let cgpa = (bn, en, math, s_sci) => {
       Subject     Marks       Gpa      Grade
       Bangla       ${Mark.bn}          ${gpa(Mark.bn)}         ${grade(Mark.bn)}
       English      ${Mark.en}          ${gpa(Mark.en)}         ${grade(Mark.en)}
-      Mathe        ${Mark.math}          ${gpa(Mark.math)}         ${grade(Mark.math)}
-      Science      ${Mark.s_sci}          ${gpa(Mark.s_sci)}         ${grade(Mark.s_sci)}
+      Math        ${Mark.math}          ${gpa(Mark.math)}         ${grade(Mark.math)}
+      S_Science      ${Mark.s_sci}          ${gpa(Mark.s_sci)}         ${grade(Mark.s_sci)}
       =======================================>
            ${cgpa(gpa( Mark.bn ),gpa( Mark.en ),gpa( Mark.math ),gpa( Mark.s_sci ))}
             Result = ${result}
